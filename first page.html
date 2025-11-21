@@ -1,0 +1,192 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Max Artist & Designers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: WHITE;
+      color: black;
+    }
+    header {
+      background: RED;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: black;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: pink;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background: white;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #222;
+      border-bottom: 3px solid RED;
+      padding-bottom: 5px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background: RED;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .service:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #222;
+      color: RED;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid black;
+    }
+    form button {
+      background: RED;
+      color: PINK;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #666;
+    }
+  </style>
+</head>
+<body>  <header>
+    <h1>Max Artist & Designers</h1>
+    <p>T-Shirts • Stamps • Sign Posts • Fliers • Graphic Work</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Welcome to <strong>Max Artist & Designers</strong>, your trusted partner in creative design and printing. We specialize in high-quality T-shirts, stamps, sign posts, fliers, and all forms of graphic design work. Located at <STRONG><em>Ntungamo, Nyakagando Mall</em></STRONG>, we bring your ideas to life with professionalism and style.</p>
+      <p><strong>CEO:</strong>ONYANGO DENNIS</p><img scr="pic1.jpg"width="100"height="100">
+    </section><section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">
+      <h3>T-Shirt Printing</h3>
+      <p>Custom designs that stand out in style.</p>
+    </div>
+    <div class="service">
+      <h3>Stamps</h3>
+      <p>Durable and professional business stamps.</p>
+    </div>
+    <div class="service">
+      <h3>Sign Posts</h3>
+      <p>Clear and bold outdoor sign designs.</p>
+    </div><br>
+    <div class="service">
+      <h3>Fliers</h3>
+      <p>Eye-catching designs for promotions and events.</p></br>
+    </div>
+    <div class="service">
+      <h3>Graphic Work</h3>
+      <p>Creative solutions for all your branding needs.</p>
+    </div><div class="service">
+      <h3>SCULPTURES</h3>
+      <p>Creative solutions& solid.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Telephone:</strong> 0786720814</p>
+  <p><strong>Email:</strong> <a href="mailto:tumuhekidenis@gmail.com">tumuhekidenis@gmail.com</a></p>
+  <p><strong>Location:</strong> Ntungamo, Nyakagando Mall</p>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  </div>  <footer>
+    <marquee><p>&copy; 2025 Max Artist & Designers. All Rights Reserved.</p></marquee>
+  </footer>  <script>
+    // Simple form validation + feedback (Chapter 10 basics)
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      let name = document.getElementById("name").value;
+      let email = document.getElementById("email").value;
+      let message = document.getElementById("message").value;
+
+      if(name && email && message){
+        alert("Thank you, " + name + "! Your message has been sent.");
+        this.reset();
+      } else {
+        alert("Please fill in all fields.");
+      }
+    });
+  </script></body>
+
+
+<video src="DEZ.mp4"width="200"height="300"poster="video"controls autoplay>
+</video><br><br>
+<img src="pic.1.jpg"width="200"height="300"><br><br>
+<audio controls><br><br>
+<source src="DEN.mp3"type="audio/mpeg">
+</audio><br><br>
+ The table below shows the artist,roles and contact cards.approach and contact any of your 
+choice for the best of our services
+<table border="1">
+ 
+ <th>artist</th>
+ <th>role</th>
+ <th>phone number</th>
+<tr>
+
+ <td>Tumuheki Denis</td>
+ <td>CEO</td>
+ <td>0782056213</td>
+</tr>
+<tr>
+ 
+ <td>Musiime Allan</td>
+ <td>DIRECTOR</td>
+ <td>0777570610</d>
+</tr>
+<tr>
+ 
+ <td>Hope </td>
+ <td>MANAGER</td>
+ <td>0777757201</td>
+</tr>
+</table
+</html>
+<a href="second page.html">link to second page.html</a>
